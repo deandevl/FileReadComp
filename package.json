@@ -1,0 +1,16 @@
+{
+  "name": "filereadcomp",
+  "version": "1.0.0",
+  "description": "A simple Vue.js component (>=2.5) for reading file names/content",
+  "main": "FileReadComp.vue",
+  "repository": "git+https://github.com/deandevl/FileReadComp.git",
+  "keywords": [
+    "Vue.js",
+    "FileReadComp"
+  ],
+  "author": "'Rick <deanr3@bardstown.com>",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^2.5.9"
+  }
+}
