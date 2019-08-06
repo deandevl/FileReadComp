@@ -2,7 +2,7 @@
 
 **file-read-comp** is a simple Vue.js component (>=2.5) for reading file names/content.  The component looks like a button that brings up a file dialog for selecting a file.  After selection the component emits two events for the selected file name and file content.  
 
-**file-read-comp** depends on the [vue.js](https://vuejs.org/ "Vue.js") framework and can be installed via [npm install](https://docs.npmjs.com/cli/install.html "npm install") with the included `package.json` file.  Three [webpack](https://webpack.js.org/concepts/) npm scripts are included for building  development, production, or hot recompile/execute of the demo.   `build-dev` and `build-prod` scripts produce  a `dist` folder containing the `index.html`.  The size of the `main.js` bundle using `build-prod` is 9 KiB along with calling a CDN for incorporating the Vue framework.
+**file-read-comp** can be installed via with the included `package.json` file for a local installation via the [npm install](https://docs.npmjs.com/cli/install.html "npm install") command.  **file-read-comp** depends on the [vue.js](https://vuejs.org/ "Vue.js") framework.  A demo folder is provided that used [Parcel](https://parceljs.org/) together with its associated `package.json` file to bundle together  **file-read-comp** along with its [vue.js](https://vuejs.org/ "Vue.js") dependency for a simple application.  Further details are provided below for running the demo.
 
 ## Props
 
@@ -42,7 +42,7 @@ The **css_variables** prop is a javascript object that contains any combination 
 
 The demonstration of **file-read-comp** is provided in the folder named `dist` and can be viewed by hosting the `index.html`file.  The demo (templated in the `App.vue` file) has one button for showing a pop-up file dialog to select a file (like the text file contained in the `dist` folder).  After selection **file-read-comp** sends an event with the file name and content to the `App.vue` listener.  In this demo the   application is printing out the file name and content to the console.
 
-As a suggestion, install [http-server](https://www.npmjs.com/package/http-server "http-server") globally via [npm](https://www.npmjs.com/ "npm") then enter the command `http-server`in the **file-read-comp** `dist` directory.  From a browser enter the url: `localhost:8080/` to view the demo.
+As a suggestion, install [http-server](https://www.npmjs.com/package/http-server "http-server") locally/globally via [npm](https://www.npmjs.com/ "npm") then enter the command `http-server`in the **file-read-comp** `dist` directory.  From a browser enter the url: `localhost:8080/` to view the demo.
 
 Here is some example code for using **file-read-comp** taken from`App.vue` :
 
